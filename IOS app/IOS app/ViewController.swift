@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  TripEase
+//  IOS app
 //
-//  Created by student on 20/04/24.
+//  Created by student on 24/04/24.
 //
 
 import UIKit

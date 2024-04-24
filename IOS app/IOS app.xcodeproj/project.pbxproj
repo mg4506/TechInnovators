@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF37D01E2BD393C400251BB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF37D01D2BD393C400251BB6 /* AppDelegate.swift */; };
-		AF37D0202BD393C400251BB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF37D01F2BD393C400251BB6 /* SceneDelegate.swift */; };
-		AF37D0222BD393C400251BB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF37D0212BD393C400251BB6 /* ViewController.swift */; };
-		AF37D0252BD393C400251BB6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AF37D0242BD393C400251BB6 /* Base */; };
-		AF37D0272BD393C600251BB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF37D0262BD393C600251BB6 /* Assets.xcassets */; };
-		AF37D02A2BD393C600251BB6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AF37D0292BD393C600251BB6 /* Base */; };
+		3F264A042BD8BDFB0094DCAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F264A032BD8BDFB0094DCAF /* AppDelegate.swift */; };
+		3F264A062BD8BDFB0094DCAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F264A052BD8BDFB0094DCAF /* SceneDelegate.swift */; };
+		3F264A082BD8BDFB0094DCAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F264A072BD8BDFB0094DCAF /* ViewController.swift */; };
+		3F264A0B2BD8BDFB0094DCAF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3F264A0A2BD8BDFB0094DCAF /* Base */; };
+		3F264A0D2BD8BDFC0094DCAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F264A0C2BD8BDFC0094DCAF /* Assets.xcassets */; };
+		3F264A102BD8BDFC0094DCAF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3F264A0F2BD8BDFC0094DCAF /* Base */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AF37D01A2BD393C400251BB6 /* TripEase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripEase.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF37D01D2BD393C400251BB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF37D01F2BD393C400251BB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AF37D0212BD393C400251BB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AF37D0242BD393C400251BB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AF37D0262BD393C600251BB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AF37D0292BD393C600251BB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AF37D02B2BD393C600251BB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F264A002BD8BDFB0094DCAF /* IOS app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F264A032BD8BDFB0094DCAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F264A052BD8BDFB0094DCAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F264A072BD8BDFB0094DCAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F264A0A2BD8BDFB0094DCAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F264A0C2BD8BDFC0094DCAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F264A0F2BD8BDFC0094DCAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F264A112BD8BDFC0094DCAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AF37D0172BD393C400251BB6 /* Frameworks */ = {
+		3F2649FD2BD8BDFB0094DCAF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AF37D0112BD393C400251BB6 = {
+		3F2649F72BD8BDFB0094DCAF = {
 			isa = PBXGroup;
 			children = (
-				AF37D01C2BD393C400251BB6 /* TripEase */,
-				AF37D01B2BD393C400251BB6 /* Products */,
+				3F264A022BD8BDFB0094DCAF /* IOS app */,
+				3F264A012BD8BDFB0094DCAF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AF37D01B2BD393C400251BB6 /* Products */ = {
+		3F264A012BD8BDFB0094DCAF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF37D01A2BD393C400251BB6 /* TripEase.app */,
+				3F264A002BD8BDFB0094DCAF /* IOS app.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AF37D01C2BD393C400251BB6 /* TripEase */ = {
+		3F264A022BD8BDFB0094DCAF /* IOS app */ = {
 			isa = PBXGroup;
 			children = (
-				AF37D01D2BD393C400251BB6 /* AppDelegate.swift */,
-				AF37D01F2BD393C400251BB6 /* SceneDelegate.swift */,
-				AF37D0212BD393C400251BB6 /* ViewController.swift */,
-				AF37D0232BD393C400251BB6 /* Main.storyboard */,
-				AF37D0262BD393C600251BB6 /* Assets.xcassets */,
-				AF37D0282BD393C600251BB6 /* LaunchScreen.storyboard */,
-				AF37D02B2BD393C600251BB6 /* Info.plist */,
+				3F264A032BD8BDFB0094DCAF /* AppDelegate.swift */,
+				3F264A052BD8BDFB0094DCAF /* SceneDelegate.swift */,
+				3F264A072BD8BDFB0094DCAF /* ViewController.swift */,
+				3F264A092BD8BDFB0094DCAF /* Main.storyboard */,
+				3F264A0C2BD8BDFC0094DCAF /* Assets.xcassets */,
+				3F264A0E2BD8BDFC0094DCAF /* LaunchScreen.storyboard */,
+				3F264A112BD8BDFC0094DCAF /* Info.plist */,
 			);
-			path = TripEase;
+			path = "IOS app";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AF37D0192BD393C400251BB6 /* TripEase */ = {
+		3F2649FF2BD8BDFB0094DCAF /* IOS app */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF37D02E2BD393C600251BB6 /* Build configuration list for PBXNativeTarget "TripEase" */;
+			buildConfigurationList = 3F264A142BD8BDFC0094DCAF /* Build configuration list for PBXNativeTarget "IOS app" */;
 			buildPhases = (
-				AF37D0162BD393C400251BB6 /* Sources */,
-				AF37D0172BD393C400251BB6 /* Frameworks */,
-				AF37D0182BD393C400251BB6 /* Resources */,
+				3F2649FC2BD8BDFB0094DCAF /* Sources */,
+				3F2649FD2BD8BDFB0094DCAF /* Frameworks */,
+				3F2649FE2BD8BDFB0094DCAF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TripEase;
-			productName = TripEase;
-			productReference = AF37D01A2BD393C400251BB6 /* TripEase.app */;
+			name = "IOS app";
+			productName = "IOS app";
+			productReference = 3F264A002BD8BDFB0094DCAF /* IOS app.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AF37D0122BD393C400251BB6 /* Project object */ = {
+		3F2649F82BD8BDFB0094DCAF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					AF37D0192BD393C400251BB6 = {
+					3F2649FF2BD8BDFB0094DCAF = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
 			};
-			buildConfigurationList = AF37D0152BD393C400251BB6 /* Build configuration list for PBXProject "TripEase" */;
+			buildConfigurationList = 3F2649FB2BD8BDFB0094DCAF /* Build configuration list for PBXProject "IOS app" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = AF37D0112BD393C400251BB6;
-			productRefGroup = AF37D01B2BD393C400251BB6 /* Products */;
+			mainGroup = 3F2649F72BD8BDFB0094DCAF;
+			productRefGroup = 3F264A012BD8BDFB0094DCAF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF37D0192BD393C400251BB6 /* TripEase */,
+				3F2649FF2BD8BDFB0094DCAF /* IOS app */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AF37D0182BD393C400251BB6 /* Resources */ = {
+		3F2649FE2BD8BDFB0094DCAF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF37D0272BD393C600251BB6 /* Assets.xcassets in Resources */,
-				AF37D02A2BD393C600251BB6 /* Base in Resources */,
-				AF37D0252BD393C400251BB6 /* Base in Resources */,
+				3F264A0D2BD8BDFC0094DCAF /* Assets.xcassets in Resources */,
+				3F264A102BD8BDFC0094DCAF /* Base in Resources */,
+				3F264A0B2BD8BDFB0094DCAF /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AF37D0162BD393C400251BB6 /* Sources */ = {
+		3F2649FC2BD8BDFB0094DCAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF37D0222BD393C400251BB6 /* ViewController.swift in Sources */,
-				AF37D01E2BD393C400251BB6 /* AppDelegate.swift in Sources */,
-				AF37D0202BD393C400251BB6 /* SceneDelegate.swift in Sources */,
+				3F264A082BD8BDFB0094DCAF /* ViewController.swift in Sources */,
+				3F264A042BD8BDFB0094DCAF /* AppDelegate.swift in Sources */,
+				3F264A062BD8BDFB0094DCAF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AF37D0232BD393C400251BB6 /* Main.storyboard */ = {
+		3F264A092BD8BDFB0094DCAF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AF37D0242BD393C400251BB6 /* Base */,
+				3F264A0A2BD8BDFB0094DCAF /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		AF37D0282BD393C600251BB6 /* LaunchScreen.storyboard */ = {
+		3F264A0E2BD8BDFC0094DCAF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AF37D0292BD393C600251BB6 /* Base */,
+				3F264A0F2BD8BDFC0094DCAF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		AF37D02C2BD393C600251BB6 /* Debug */ = {
+		3F264A122BD8BDFC0094DCAF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -229,7 +229,7 @@
 			};
 			name = Debug;
 		};
-		AF37D02D2BD393C600251BB6 /* Release */ = {
+		3F264A132BD8BDFC0094DCAF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,16 +285,15 @@
 			};
 			name = Release;
 		};
-		AF37D02F2BD393C600251BB6 /* Debug */ = {
+		3F264A152BD8BDFC0094DCAF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6Z9PSH8CVD;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TripEase/Info.plist;
+				INFOPLIST_FILE = "IOS app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -305,7 +304,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MG.TripEase;
+				PRODUCT_BUNDLE_IDENTIFIER = "farry.IOS-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -313,16 +312,15 @@
 			};
 			name = Debug;
 		};
-		AF37D0302BD393C600251BB6 /* Release */ = {
+		3F264A162BD8BDFC0094DCAF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6Z9PSH8CVD;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TripEase/Info.plist;
+				INFOPLIST_FILE = "IOS app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -333,7 +331,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MG.TripEase;
+				PRODUCT_BUNDLE_IDENTIFIER = "farry.IOS-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -344,25 +342,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AF37D0152BD393C400251BB6 /* Build configuration list for PBXProject "TripEase" */ = {
+		3F2649FB2BD8BDFB0094DCAF /* Build configuration list for PBXProject "IOS app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF37D02C2BD393C600251BB6 /* Debug */,
-				AF37D02D2BD393C600251BB6 /* Release */,
+				3F264A122BD8BDFC0094DCAF /* Debug */,
+				3F264A132BD8BDFC0094DCAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF37D02E2BD393C600251BB6 /* Build configuration list for PBXNativeTarget "TripEase" */ = {
+		3F264A142BD8BDFC0094DCAF /* Build configuration list for PBXNativeTarget "IOS app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF37D02F2BD393C600251BB6 /* Debug */,
-				AF37D0302BD393C600251BB6 /* Release */,
+				3F264A152BD8BDFC0094DCAF /* Debug */,
+				3F264A162BD8BDFC0094DCAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AF37D0122BD393C400251BB6 /* Project object */;
+	rootObject = 3F2649F82BD8BDFB0094DCAF /* Project object */;
 }
