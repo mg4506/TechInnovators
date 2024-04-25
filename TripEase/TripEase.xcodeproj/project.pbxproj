@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF0942502BD9661A000CCF00 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF09424F2BD9661A000CCF00 /* HomeViewController.swift */; };
+		AF0942522BD96A88000CCF00 /* TrendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0942512BD96A88000CCF00 /* TrendTableViewCell.swift */; };
 		AF37D01E2BD393C400251BB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF37D01D2BD393C400251BB6 /* AppDelegate.swift */; };
 		AF37D0202BD393C400251BB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF37D01F2BD393C400251BB6 /* SceneDelegate.swift */; };
 		AF37D0222BD393C400251BB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF37D0212BD393C400251BB6 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF09424F2BD9661A000CCF00 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AF0942512BD96A88000CCF00 /* TrendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendTableViewCell.swift; sourceTree = "<group>"; };
 		AF37D01A2BD393C400251BB6 /* TripEase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripEase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF37D01D2BD393C400251BB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF37D01F2BD393C400251BB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,7 +63,9 @@
 				AF37D01D2BD393C400251BB6 /* AppDelegate.swift */,
 				AF37D01F2BD393C400251BB6 /* SceneDelegate.swift */,
 				AF37D0212BD393C400251BB6 /* ViewController.swift */,
+				AF09424F2BD9661A000CCF00 /* HomeViewController.swift */,
 				AF37D0232BD393C400251BB6 /* Main.storyboard */,
+				AF0942512BD96A88000CCF00 /* TrendTableViewCell.swift */,
 				AF37D0262BD393C600251BB6 /* Assets.xcassets */,
 				AF37D0282BD393C600251BB6 /* LaunchScreen.storyboard */,
 				AF37D02B2BD393C600251BB6 /* Info.plist */,
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF37D0222BD393C400251BB6 /* ViewController.swift in Sources */,
+				AF0942522BD96A88000CCF00 /* TrendTableViewCell.swift in Sources */,
 				AF37D01E2BD393C400251BB6 /* AppDelegate.swift in Sources */,
 				AF37D0202BD393C400251BB6 /* SceneDelegate.swift in Sources */,
+				AF0942502BD9661A000CCF00 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
