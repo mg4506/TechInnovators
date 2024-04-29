@@ -7,31 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF0942502BD9661A000CCF00 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF09424F2BD9661A000CCF00 /* HomeViewController.swift */; };
-		AF37D01E2BD393C400251BB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF37D01D2BD393C400251BB6 /* AppDelegate.swift */; };
-		AF37D0202BD393C400251BB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF37D01F2BD393C400251BB6 /* SceneDelegate.swift */; };
-		AF37D0252BD393C400251BB6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AF37D0242BD393C400251BB6 /* Base */; };
-		AF37D0272BD393C600251BB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF37D0262BD393C600251BB6 /* Assets.xcassets */; };
-		AF37D02A2BD393C600251BB6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AF37D0292BD393C600251BB6 /* Base */; };
-		AFF997B22BDA5AF600DCF598 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF997B12BDA5AF600DCF598 /* DataModel.swift */; };
-		AFF997B42BDA5D3600DCF598 /* TrendingPlaceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF997B32BDA5D3600DCF598 /* TrendingPlaceCollectionViewCell.swift */; };
+		AF4535022BDEC28D00A4906A /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4535012BDEC28D00A4906A /* LaunchViewController.swift */; };
+		AF4535042BDECCFF00A4906A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4535032BDECCFF00A4906A /* LoginViewController.swift */; };
+		AF4535082BDED20300A4906A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4535072BDED20300A4906A /* HomeViewController.swift */; };
+		AFB6BA5D2BDE1B95000BC434 /* ExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB6BA5C2BDE1B95000BC434 /* ExploreController.swift */; };
+		AFE90AC02BDB611E000962F0 /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE90ABF2BDB611E000962F0 /* DataModels.swift */; };
+		AFF997C22BDAD33900DCF598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF997C12BDAD33900DCF598 /* AppDelegate.swift */; };
+		AFF997C42BDAD33900DCF598 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF997C32BDAD33900DCF598 /* SceneDelegate.swift */; };
+		AFF997C62BDAD33900DCF598 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF997C52BDAD33900DCF598 /* ViewController.swift */; };
+		AFF997C92BDAD33900DCF598 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AFF997C82BDAD33900DCF598 /* Base */; };
+		AFF997CB2BDAD33A00DCF598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF997CA2BDAD33A00DCF598 /* Assets.xcassets */; };
+		AFF997CE2BDAD33A00DCF598 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AFF997CD2BDAD33A00DCF598 /* Base */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AF09424F2BD9661A000CCF00 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		AF37D01A2BD393C400251BB6 /* TripEase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripEase.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF37D01D2BD393C400251BB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF37D01F2BD393C400251BB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AF37D0242BD393C400251BB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AF37D0262BD393C600251BB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AF37D0292BD393C600251BB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AF37D02B2BD393C600251BB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AFF997B12BDA5AF600DCF598 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
-		AFF997B32BDA5D3600DCF598 /* TrendingPlaceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingPlaceCollectionViewCell.swift; sourceTree = "<group>"; };
+		AF4535012BDEC28D00A4906A /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		AF4535032BDECCFF00A4906A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AF4535072BDED20300A4906A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AFB6BA5C2BDE1B95000BC434 /* ExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreController.swift; sourceTree = "<group>"; };
+		AFE90ABF2BDB611E000962F0 /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
+		AFF997BE2BDAD33900DCF598 /* EazyTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EazyTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF997C12BDAD33900DCF598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFF997C32BDAD33900DCF598 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AFF997C52BDAD33900DCF598 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFF997C82BDAD33900DCF598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFF997CA2BDAD33A00DCF598 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFF997CD2BDAD33A00DCF598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFF997CF2BDAD33B00DCF598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AF37D0172BD393C400251BB6 /* Frameworks */ = {
+		AFF997BB2BDAD33900DCF598 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,74 +47,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AF37D0112BD393C400251BB6 = {
+		AFF997B52BDAD33900DCF598 = {
 			isa = PBXGroup;
 			children = (
-				AF37D01C2BD393C400251BB6 /* TripEase */,
-				AF37D01B2BD393C400251BB6 /* Products */,
+				AFF997C02BDAD33900DCF598 /* EazyTrip */,
+				AFF997BF2BDAD33900DCF598 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AF37D01B2BD393C400251BB6 /* Products */ = {
+		AFF997BF2BDAD33900DCF598 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF37D01A2BD393C400251BB6 /* TripEase.app */,
+				AFF997BE2BDAD33900DCF598 /* EazyTrip.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AF37D01C2BD393C400251BB6 /* TripEase */ = {
+		AFF997C02BDAD33900DCF598 /* EazyTrip */ = {
 			isa = PBXGroup;
 			children = (
-				AF37D01D2BD393C400251BB6 /* AppDelegate.swift */,
-				AF37D01F2BD393C400251BB6 /* SceneDelegate.swift */,
-				AF37D0232BD393C400251BB6 /* Main.storyboard */,
-				AFF997B12BDA5AF600DCF598 /* DataModel.swift */,
-				AF37D0262BD393C600251BB6 /* Assets.xcassets */,
-				AF37D0282BD393C600251BB6 /* LaunchScreen.storyboard */,
-				AF37D02B2BD393C600251BB6 /* Info.plist */,
-				AFF997B32BDA5D3600DCF598 /* TrendingPlaceCollectionViewCell.swift */,
-				AF09424F2BD9661A000CCF00 /* HomeViewController.swift */,
+				AFF997C12BDAD33900DCF598 /* AppDelegate.swift */,
+				AFF997C32BDAD33900DCF598 /* SceneDelegate.swift */,
+				AFF997C52BDAD33900DCF598 /* ViewController.swift */,
+				AF4535012BDEC28D00A4906A /* LaunchViewController.swift */,
+				AF4535072BDED20300A4906A /* HomeViewController.swift */,
+				AF4535032BDECCFF00A4906A /* LoginViewController.swift */,
+				AFF997C72BDAD33900DCF598 /* Main.storyboard */,
+				AFF997CA2BDAD33A00DCF598 /* Assets.xcassets */,
+				AFF997CC2BDAD33A00DCF598 /* LaunchScreen.storyboard */,
+				AFF997CF2BDAD33B00DCF598 /* Info.plist */,
+				AFE90ABF2BDB611E000962F0 /* DataModels.swift */,
+				AFB6BA5C2BDE1B95000BC434 /* ExploreController.swift */,
 			);
-			path = TripEase;
+			path = EazyTrip;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AF37D0192BD393C400251BB6 /* TripEase */ = {
+		AFF997BD2BDAD33900DCF598 /* EazyTrip */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF37D02E2BD393C600251BB6 /* Build configuration list for PBXNativeTarget "TripEase" */;
+			buildConfigurationList = AFF997D22BDAD33B00DCF598 /* Build configuration list for PBXNativeTarget "EazyTrip" */;
 			buildPhases = (
-				AF37D0162BD393C400251BB6 /* Sources */,
-				AF37D0172BD393C400251BB6 /* Frameworks */,
-				AF37D0182BD393C400251BB6 /* Resources */,
+				AFF997BA2BDAD33900DCF598 /* Sources */,
+				AFF997BB2BDAD33900DCF598 /* Frameworks */,
+				AFF997BC2BDAD33900DCF598 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TripEase;
-			productName = TripEase;
-			productReference = AF37D01A2BD393C400251BB6 /* TripEase.app */;
+			name = EazyTrip;
+			productName = EazyTrip;
+			productReference = AFF997BE2BDAD33900DCF598 /* EazyTrip.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AF37D0122BD393C400251BB6 /* Project object */ = {
+		AFF997B62BDAD33900DCF598 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					AF37D0192BD393C400251BB6 = {
+					AFF997BD2BDAD33900DCF598 = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
 			};
-			buildConfigurationList = AF37D0152BD393C400251BB6 /* Build configuration list for PBXProject "TripEase" */;
+			buildConfigurationList = AFF997B92BDAD33900DCF598 /* Build configuration list for PBXProject "EazyTrip" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,57 +125,60 @@
 				en,
 				Base,
 			);
-			mainGroup = AF37D0112BD393C400251BB6;
-			productRefGroup = AF37D01B2BD393C400251BB6 /* Products */;
+			mainGroup = AFF997B52BDAD33900DCF598;
+			productRefGroup = AFF997BF2BDAD33900DCF598 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF37D0192BD393C400251BB6 /* TripEase */,
+				AFF997BD2BDAD33900DCF598 /* EazyTrip */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AF37D0182BD393C400251BB6 /* Resources */ = {
+		AFF997BC2BDAD33900DCF598 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF37D0272BD393C600251BB6 /* Assets.xcassets in Resources */,
-				AF37D02A2BD393C600251BB6 /* Base in Resources */,
-				AF37D0252BD393C400251BB6 /* Base in Resources */,
+				AFF997CB2BDAD33A00DCF598 /* Assets.xcassets in Resources */,
+				AFF997CE2BDAD33A00DCF598 /* Base in Resources */,
+				AFF997C92BDAD33900DCF598 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AF37D0162BD393C400251BB6 /* Sources */ = {
+		AFF997BA2BDAD33900DCF598 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFF997B22BDA5AF600DCF598 /* DataModel.swift in Sources */,
-				AF37D01E2BD393C400251BB6 /* AppDelegate.swift in Sources */,
-				AF37D0202BD393C400251BB6 /* SceneDelegate.swift in Sources */,
-				AFF997B42BDA5D3600DCF598 /* TrendingPlaceCollectionViewCell.swift in Sources */,
-				AF0942502BD9661A000CCF00 /* HomeViewController.swift in Sources */,
+				AF4535042BDECCFF00A4906A /* LoginViewController.swift in Sources */,
+				AFF997C62BDAD33900DCF598 /* ViewController.swift in Sources */,
+				AF4535022BDEC28D00A4906A /* LaunchViewController.swift in Sources */,
+				AF4535082BDED20300A4906A /* HomeViewController.swift in Sources */,
+				AFB6BA5D2BDE1B95000BC434 /* ExploreController.swift in Sources */,
+				AFE90AC02BDB611E000962F0 /* DataModels.swift in Sources */,
+				AFF997C22BDAD33900DCF598 /* AppDelegate.swift in Sources */,
+				AFF997C42BDAD33900DCF598 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AF37D0232BD393C400251BB6 /* Main.storyboard */ = {
+		AFF997C72BDAD33900DCF598 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AF37D0242BD393C400251BB6 /* Base */,
+				AFF997C82BDAD33900DCF598 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		AF37D0282BD393C600251BB6 /* LaunchScreen.storyboard */ = {
+		AFF997CC2BDAD33A00DCF598 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AF37D0292BD393C600251BB6 /* Base */,
+				AFF997CD2BDAD33A00DCF598 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -174,7 +186,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		AF37D02C2BD393C600251BB6 /* Debug */ = {
+		AFF997D02BDAD33B00DCF598 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -237,7 +249,7 @@
 			};
 			name = Debug;
 		};
-		AF37D02D2BD393C600251BB6 /* Release */ = {
+		AFF997D12BDAD33B00DCF598 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -293,7 +305,7 @@
 			};
 			name = Release;
 		};
-		AF37D02F2BD393C600251BB6 /* Debug */ = {
+		AFF997D32BDAD33B00DCF598 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -302,7 +314,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6Z9PSH8CVD;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TripEase/Info.plist;
+				INFOPLIST_FILE = EazyTrip/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -313,7 +325,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MG.TripEase;
+				PRODUCT_BUNDLE_IDENTIFIER = MG.EazyTrip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -321,7 +333,7 @@
 			};
 			name = Debug;
 		};
-		AF37D0302BD393C600251BB6 /* Release */ = {
+		AFF997D42BDAD33B00DCF598 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -330,7 +342,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6Z9PSH8CVD;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TripEase/Info.plist;
+				INFOPLIST_FILE = EazyTrip/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -341,7 +353,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MG.TripEase;
+				PRODUCT_BUNDLE_IDENTIFIER = MG.EazyTrip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -352,25 +364,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AF37D0152BD393C400251BB6 /* Build configuration list for PBXProject "TripEase" */ = {
+		AFF997B92BDAD33900DCF598 /* Build configuration list for PBXProject "EazyTrip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF37D02C2BD393C600251BB6 /* Debug */,
-				AF37D02D2BD393C600251BB6 /* Release */,
+				AFF997D02BDAD33B00DCF598 /* Debug */,
+				AFF997D12BDAD33B00DCF598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF37D02E2BD393C600251BB6 /* Build configuration list for PBXNativeTarget "TripEase" */ = {
+		AFF997D22BDAD33B00DCF598 /* Build configuration list for PBXNativeTarget "EazyTrip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF37D02F2BD393C600251BB6 /* Debug */,
-				AF37D0302BD393C600251BB6 /* Release */,
+				AFF997D32BDAD33B00DCF598 /* Debug */,
+				AFF997D42BDAD33B00DCF598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AF37D0122BD393C400251BB6 /* Project object */;
+	rootObject = AFF997B62BDAD33900DCF598 /* Project object */;
 }

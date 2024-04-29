@@ -7,40 +7,49 @@
 
 import UIKit
 
-class HomeViewController: UIViewController ,UITableViewDataSource {
+class HomeViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource  {
     
+    @IBOutlet weak var trendingCollectionView: UICollectionView!
     
-    @IBOutlet weak var table: UITableView!
-    struct  place{
-        let placeImage : String
-        let placeName : String
-        let placeLocation : String
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        places.count
     }
     
-    let data : [place] = [
-        place(placeImage: "image", placeName: "mysuru palace1", placeLocation: "Mysuru"),
-        place(placeImage: "image1", placeName: "mysuru palace", placeLocation: "Mysuru"),
-    place(placeImage: "image2", placeName: "mysuru palace", placeLocation: "Mysuru")
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "trendingCard", for: indexPath) as! TrendingPlaceCollectionViewCell
+            
+            let place = places[indexPath.item]
+            
+            cell.placeImage.image = UIImage(named: place.image)
+            cell.placeNameLabel.text = place.Title
+            cell.placeLocationLabel.text = place.location
+            cell.ratingLabel.text = "\(place.rating)"
+            
+            return cell
+    }
     
-    ]
     override func viewDidLoad() {
         super.viewDidLoad()
-        table.dataSource = self
-        // Do any additional setup after loading the view.
+        
+        trendingCollectionView.dataSource = self
+        trendingCollectionView.delegate = self
+        
+        let layout = UICollectionViewCompositionalLayout { sectionIndex, layoutEnvironment in
+            let item = NSCollectionLayoutItem(layoutSize: NSCollectionLayoutSize(widthDimension: .fractionalWidth(0.73), heightDimension: .fractionalHeight(1.0)))
+           
+            let group = NSCollectionLayoutGroup.horizontal(layoutSize: NSCollectionLayoutSize(widthDimension: .fractionalWidth(0.43), heightDimension: .fractionalHeight(1.0)), subitems: [item])
+            
+            
+            let section = NSCollectionLayoutSection(group: group)
+            section.orthogonalScrollingBehavior = .continuous
+            return section
+        }
+        trendingCollectionView.collectionViewLayout = layout
     }
 
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return data.count
-    }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let place = data[indexPath.row]
-        let cell = table.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! TrendTableViewCell
-        cell.iconImageView.image = nil
-        cell.placeLabel.text = place.placeName
-        cell.placeLocation.text = place.placeLocation
-        return cell
-    }
+    
+    
     /*
     // MARK: - Navigation
 
