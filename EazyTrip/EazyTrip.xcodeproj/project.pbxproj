@@ -11,6 +11,8 @@
 		AF4535042BDECCFF00A4906A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4535032BDECCFF00A4906A /* LoginViewController.swift */; };
 		AF4535082BDED20300A4906A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4535072BDED20300A4906A /* HomeViewController.swift */; };
 		AFB6BA5D2BDE1B95000BC434 /* ExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB6BA5C2BDE1B95000BC434 /* ExploreController.swift */; };
+		AFC9EB412BE163680008765E /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC9EB402BE163680008765E /* CommunityViewController.swift */; };
+		AFC9EB432BE163900008765E /* CommunityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC9EB422BE163900008765E /* CommunityTableViewCell.swift */; };
 		AFE90AC02BDB611E000962F0 /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE90ABF2BDB611E000962F0 /* DataModels.swift */; };
 		AFF997C22BDAD33900DCF598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF997C12BDAD33900DCF598 /* AppDelegate.swift */; };
 		AFF997C42BDAD33900DCF598 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF997C32BDAD33900DCF598 /* SceneDelegate.swift */; };
@@ -25,6 +27,8 @@
 		AF4535032BDECCFF00A4906A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AF4535072BDED20300A4906A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		AFB6BA5C2BDE1B95000BC434 /* ExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreController.swift; sourceTree = "<group>"; };
+		AFC9EB402BE163680008765E /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
+		AFC9EB422BE163900008765E /* CommunityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityTableViewCell.swift; sourceTree = "<group>"; };
 		AFE90ABF2BDB611E000962F0 /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
 		AFF997BE2BDAD33900DCF598 /* EazyTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EazyTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFF997C12BDAD33900DCF598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 				AF4535012BDEC28D00A4906A /* LaunchViewController.swift */,
 				AF4535072BDED20300A4906A /* HomeViewController.swift */,
 				AF4535032BDECCFF00A4906A /* LoginViewController.swift */,
+				AFC9EB402BE163680008765E /* CommunityViewController.swift */,
+				AFC9EB422BE163900008765E /* CommunityTableViewCell.swift */,
 				AFF997C72BDAD33900DCF598 /* Main.storyboard */,
 				AFF997CA2BDAD33A00DCF598 /* Assets.xcassets */,
 				AFF997CC2BDAD33A00DCF598 /* LaunchScreen.storyboard */,
@@ -155,6 +161,8 @@
 			files = (
 				AF4535042BDECCFF00A4906A /* LoginViewController.swift in Sources */,
 				AFF997C62BDAD33900DCF598 /* ViewController.swift in Sources */,
+				AFC9EB412BE163680008765E /* CommunityViewController.swift in Sources */,
+				AFC9EB432BE163900008765E /* CommunityTableViewCell.swift in Sources */,
 				AF4535022BDEC28D00A4906A /* LaunchViewController.swift in Sources */,
 				AF4535082BDED20300A4906A /* HomeViewController.swift in Sources */,
 				AFB6BA5D2BDE1B95000BC434 /* ExploreController.swift in Sources */,
@@ -315,6 +323,7 @@
 				DEVELOPMENT_TEAM = 6Z9PSH8CVD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EazyTrip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PlanEzy;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -343,6 +352,7 @@
 				DEVELOPMENT_TEAM = 6Z9PSH8CVD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EazyTrip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PlanEzy;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

@@ -10,6 +10,7 @@ import UIKit
 class ExploreController: UIViewController {
 
     @IBOutlet weak var categoryImage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
