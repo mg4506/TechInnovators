@@ -16,6 +16,7 @@
 		3F264A0B2BD8BDFB0094DCAF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3F264A0A2BD8BDFB0094DCAF /* Base */; };
 		3F264A0D2BD8BDFC0094DCAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F264A0C2BD8BDFC0094DCAF /* Assets.xcassets */; };
 		3F264A102BD8BDFC0094DCAF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3F264A0F2BD8BDFC0094DCAF /* Base */; };
+		3F2A449D2BE35EB800C0B585 /* resturantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2A449C2BE35EB800C0B585 /* resturantViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		3F264A0C2BD8BDFC0094DCAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F264A0F2BD8BDFC0094DCAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F264A112BD8BDFC0094DCAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F2A449C2BE35EB800C0B585 /* resturantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resturantViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			children = (
 				3F264A032BD8BDFB0094DCAF /* AppDelegate.swift */,
 				3F264A052BD8BDFB0094DCAF /* SceneDelegate.swift */,
+				3F2A449C2BE35EB800C0B585 /* resturantViewController.swift */,
 				3F264A072BD8BDFB0094DCAF /* ViewController.swift */,
 				3F23FCB92BE20468004CFD57 /* cabViewController.swift */,
 				3F23FCBB2BE21B03004CFD57 /* HotelViewController.swift */,
@@ -153,6 +156,7 @@
 				3F23FCBA2BE20468004CFD57 /* cabViewController.swift in Sources */,
 				3F23FCBC2BE21B03004CFD57 /* HotelViewController.swift in Sources */,
 				3F23FCBE2BE21BD9004CFD57 /* PLANViewController.swift in Sources */,
+				3F2A449D2BE35EB800C0B585 /* resturantViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
