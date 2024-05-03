@@ -10,6 +10,8 @@
 		AF4535022BDEC28D00A4906A /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4535012BDEC28D00A4906A /* LaunchViewController.swift */; };
 		AF4535042BDECCFF00A4906A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4535032BDECCFF00A4906A /* LoginViewController.swift */; };
 		AF4535082BDED20300A4906A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4535072BDED20300A4906A /* HomeViewController.swift */; };
+		AF8608022BE20836006DCD14 /* PlanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8608012BE20836006DCD14 /* PlanTableViewCell.swift */; };
+		AF8608062BE22569006DCD14 /* PlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8608052BE22569006DCD14 /* PlanViewController.swift */; };
 		AFB6BA5D2BDE1B95000BC434 /* ExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB6BA5C2BDE1B95000BC434 /* ExploreController.swift */; };
 		AFC9EB412BE163680008765E /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC9EB402BE163680008765E /* CommunityViewController.swift */; };
 		AFC9EB432BE163900008765E /* CommunityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC9EB422BE163900008765E /* CommunityTableViewCell.swift */; };
@@ -26,6 +28,8 @@
 		AF4535012BDEC28D00A4906A /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		AF4535032BDECCFF00A4906A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AF4535072BDED20300A4906A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AF8608012BE20836006DCD14 /* PlanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanTableViewCell.swift; sourceTree = "<group>"; };
+		AF8608052BE22569006DCD14 /* PlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanViewController.swift; sourceTree = "<group>"; };
 		AFB6BA5C2BDE1B95000BC434 /* ExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreController.swift; sourceTree = "<group>"; };
 		AFC9EB402BE163680008765E /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
 		AFC9EB422BE163900008765E /* CommunityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityTableViewCell.swift; sourceTree = "<group>"; };
@@ -78,6 +82,8 @@
 				AF4535032BDECCFF00A4906A /* LoginViewController.swift */,
 				AFC9EB402BE163680008765E /* CommunityViewController.swift */,
 				AFC9EB422BE163900008765E /* CommunityTableViewCell.swift */,
+				AF8608052BE22569006DCD14 /* PlanViewController.swift */,
+				AF8608012BE20836006DCD14 /* PlanTableViewCell.swift */,
 				AFF997C72BDAD33900DCF598 /* Main.storyboard */,
 				AFF997CA2BDAD33A00DCF598 /* Assets.xcassets */,
 				AFF997CC2BDAD33A00DCF598 /* LaunchScreen.storyboard */,
@@ -164,11 +170,13 @@
 				AFC9EB412BE163680008765E /* CommunityViewController.swift in Sources */,
 				AFC9EB432BE163900008765E /* CommunityTableViewCell.swift in Sources */,
 				AF4535022BDEC28D00A4906A /* LaunchViewController.swift in Sources */,
+				AF8608062BE22569006DCD14 /* PlanViewController.swift in Sources */,
 				AF4535082BDED20300A4906A /* HomeViewController.swift in Sources */,
 				AFB6BA5D2BDE1B95000BC434 /* ExploreController.swift in Sources */,
 				AFE90AC02BDB611E000962F0 /* DataModels.swift in Sources */,
 				AFF997C22BDAD33900DCF598 /* AppDelegate.swift in Sources */,
 				AFF997C42BDAD33900DCF598 /* SceneDelegate.swift in Sources */,
+				AF8608022BE20836006DCD14 /* PlanTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
