@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF2269EB2BE81C7200702130 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2269EA2BE81C7200702130 /* EntryViewController.swift */; };
+		AF2269ED2BE81CED00702130 /* TripItinerayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2269EC2BE81CED00702130 /* TripItinerayViewController.swift */; };
+		AF2269EF2BE81D1F00702130 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2269EE2BE81D1F00702130 /* NextViewController.swift */; };
+		AF2269F12BE81D5200702130 /* TripDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2269F02BE81D5200702130 /* TripDetailViewController.swift */; };
 		AF4535022BDEC28D00A4906A /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4535012BDEC28D00A4906A /* LaunchViewController.swift */; };
 		AF4535042BDECCFF00A4906A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4535032BDECCFF00A4906A /* LoginViewController.swift */; };
 		AF4535082BDED20300A4906A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4535072BDED20300A4906A /* HomeViewController.swift */; };
-		AF8608022BE20836006DCD14 /* PlanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8608012BE20836006DCD14 /* PlanTableViewCell.swift */; };
 		AF8608062BE22569006DCD14 /* PlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8608052BE22569006DCD14 /* PlanViewController.swift */; };
 		AFB6BA5D2BDE1B95000BC434 /* ExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB6BA5C2BDE1B95000BC434 /* ExploreController.swift */; };
 		AFC9EB412BE163680008765E /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC9EB402BE163680008765E /* CommunityViewController.swift */; };
 		AFC9EB432BE163900008765E /* CommunityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC9EB422BE163900008765E /* CommunityTableViewCell.swift */; };
+		AFD47E9C2BE8918A005CCF51 /* PostYourExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD47E9B2BE8918A005CCF51 /* PostYourExperienceViewController.swift */; };
 		AFE90AC02BDB611E000962F0 /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE90ABF2BDB611E000962F0 /* DataModels.swift */; };
 		AFF997C22BDAD33900DCF598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF997C12BDAD33900DCF598 /* AppDelegate.swift */; };
 		AFF997C42BDAD33900DCF598 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF997C32BDAD33900DCF598 /* SceneDelegate.swift */; };
@@ -25,14 +29,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF2269EA2BE81C7200702130 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		AF2269EC2BE81CED00702130 /* TripItinerayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripItinerayViewController.swift; sourceTree = "<group>"; };
+		AF2269EE2BE81D1F00702130 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		AF2269F02BE81D5200702130 /* TripDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailViewController.swift; sourceTree = "<group>"; };
 		AF4535012BDEC28D00A4906A /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		AF4535032BDECCFF00A4906A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AF4535072BDED20300A4906A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		AF8608012BE20836006DCD14 /* PlanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanTableViewCell.swift; sourceTree = "<group>"; };
 		AF8608052BE22569006DCD14 /* PlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanViewController.swift; sourceTree = "<group>"; };
 		AFB6BA5C2BDE1B95000BC434 /* ExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreController.swift; sourceTree = "<group>"; };
 		AFC9EB402BE163680008765E /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
 		AFC9EB422BE163900008765E /* CommunityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityTableViewCell.swift; sourceTree = "<group>"; };
+		AFD47E9B2BE8918A005CCF51 /* PostYourExperienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostYourExperienceViewController.swift; sourceTree = "<group>"; };
 		AFE90ABF2BDB611E000962F0 /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
 		AFF997BE2BDAD33900DCF598 /* EazyTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EazyTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFF997C12BDAD33900DCF598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -75,15 +83,19 @@
 			isa = PBXGroup;
 			children = (
 				AFF997C12BDAD33900DCF598 /* AppDelegate.swift */,
+				AF2269F02BE81D5200702130 /* TripDetailViewController.swift */,
 				AFF997C32BDAD33900DCF598 /* SceneDelegate.swift */,
 				AFF997C52BDAD33900DCF598 /* ViewController.swift */,
+				AF2269EA2BE81C7200702130 /* EntryViewController.swift */,
+				AF2269EE2BE81D1F00702130 /* NextViewController.swift */,
 				AF4535012BDEC28D00A4906A /* LaunchViewController.swift */,
+				AF2269EC2BE81CED00702130 /* TripItinerayViewController.swift */,
 				AF4535072BDED20300A4906A /* HomeViewController.swift */,
 				AF4535032BDECCFF00A4906A /* LoginViewController.swift */,
 				AFC9EB402BE163680008765E /* CommunityViewController.swift */,
 				AFC9EB422BE163900008765E /* CommunityTableViewCell.swift */,
+				AFD47E9B2BE8918A005CCF51 /* PostYourExperienceViewController.swift */,
 				AF8608052BE22569006DCD14 /* PlanViewController.swift */,
-				AF8608012BE20836006DCD14 /* PlanTableViewCell.swift */,
 				AFF997C72BDAD33900DCF598 /* Main.storyboard */,
 				AFF997CA2BDAD33A00DCF598 /* Assets.xcassets */,
 				AFF997CC2BDAD33A00DCF598 /* LaunchScreen.storyboard */,
@@ -165,18 +177,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF2269F12BE81D5200702130 /* TripDetailViewController.swift in Sources */,
 				AF4535042BDECCFF00A4906A /* LoginViewController.swift in Sources */,
+				AF2269EF2BE81D1F00702130 /* NextViewController.swift in Sources */,
 				AFF997C62BDAD33900DCF598 /* ViewController.swift in Sources */,
 				AFC9EB412BE163680008765E /* CommunityViewController.swift in Sources */,
 				AFC9EB432BE163900008765E /* CommunityTableViewCell.swift in Sources */,
 				AF4535022BDEC28D00A4906A /* LaunchViewController.swift in Sources */,
+				AF2269EB2BE81C7200702130 /* EntryViewController.swift in Sources */,
 				AF8608062BE22569006DCD14 /* PlanViewController.swift in Sources */,
 				AF4535082BDED20300A4906A /* HomeViewController.swift in Sources */,
 				AFB6BA5D2BDE1B95000BC434 /* ExploreController.swift in Sources */,
+				AF2269ED2BE81CED00702130 /* TripItinerayViewController.swift in Sources */,
 				AFE90AC02BDB611E000962F0 /* DataModels.swift in Sources */,
+				AFD47E9C2BE8918A005CCF51 /* PostYourExperienceViewController.swift in Sources */,
 				AFF997C22BDAD33900DCF598 /* AppDelegate.swift in Sources */,
 				AFF997C42BDAD33900DCF598 /* SceneDelegate.swift in Sources */,
-				AF8608022BE20836006DCD14 /* PlanTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
