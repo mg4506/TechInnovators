@@ -18,7 +18,15 @@
 		AFB6BA5D2BDE1B95000BC434 /* ExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB6BA5C2BDE1B95000BC434 /* ExploreController.swift */; };
 		AFC9EB412BE163680008765E /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC9EB402BE163680008765E /* CommunityViewController.swift */; };
 		AFC9EB432BE163900008765E /* CommunityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC9EB422BE163900008765E /* CommunityTableViewCell.swift */; };
+		AFCB55472BEB7C3F0061F1F2 /* RoundCheckboxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCB55462BEB7C3F0061F1F2 /* RoundCheckboxButton.swift */; };
+		AFCB55492BEB83FD0061F1F2 /* OnboaringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCB55482BEB83FD0061F1F2 /* OnboaringViewController.swift */; };
+		AFCB554B2BEBB31F0061F1F2 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCB554A2BEBB31F0061F1F2 /* CreateAccountViewController.swift */; };
 		AFD47E9C2BE8918A005CCF51 /* PostYourExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD47E9B2BE8918A005CCF51 /* PostYourExperienceViewController.swift */; };
+		AFD47EDE2BEAAE75005CCF51 /* AddTripCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD47EDD2BEAAE75005CCF51 /* AddTripCenterViewController.swift */; };
+		AFD47EE02BEAAEAA005CCF51 /* AddTripCenterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD47EDF2BEAAEAA005CCF51 /* AddTripCenterTableViewCell.swift */; };
+		AFD47EE22BEAAEF4005CCF51 /* EnterDetailsCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD47EE12BEAAEF4005CCF51 /* EnterDetailsCenterViewController.swift */; };
+		AFD47EE42BEAB6DD005CCF51 /* AddIyineryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD47EE32BEAB6DD005CCF51 /* AddIyineryViewController.swift */; };
+		AFD47EE62BEAB994005CCF51 /* TripPlaneTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD47EE52BEAB994005CCF51 /* TripPlaneTableViewCell.swift */; };
 		AFE90AC02BDB611E000962F0 /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE90ABF2BDB611E000962F0 /* DataModels.swift */; };
 		AFF997C22BDAD33900DCF598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF997C12BDAD33900DCF598 /* AppDelegate.swift */; };
 		AFF997C42BDAD33900DCF598 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF997C32BDAD33900DCF598 /* SceneDelegate.swift */; };
@@ -40,7 +48,15 @@
 		AFB6BA5C2BDE1B95000BC434 /* ExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreController.swift; sourceTree = "<group>"; };
 		AFC9EB402BE163680008765E /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
 		AFC9EB422BE163900008765E /* CommunityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityTableViewCell.swift; sourceTree = "<group>"; };
+		AFCB55462BEB7C3F0061F1F2 /* RoundCheckboxButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundCheckboxButton.swift; sourceTree = "<group>"; };
+		AFCB55482BEB83FD0061F1F2 /* OnboaringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboaringViewController.swift; sourceTree = "<group>"; };
+		AFCB554A2BEBB31F0061F1F2 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		AFD47E9B2BE8918A005CCF51 /* PostYourExperienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostYourExperienceViewController.swift; sourceTree = "<group>"; };
+		AFD47EDD2BEAAE75005CCF51 /* AddTripCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripCenterViewController.swift; sourceTree = "<group>"; };
+		AFD47EDF2BEAAEAA005CCF51 /* AddTripCenterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripCenterTableViewCell.swift; sourceTree = "<group>"; };
+		AFD47EE12BEAAEF4005CCF51 /* EnterDetailsCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterDetailsCenterViewController.swift; sourceTree = "<group>"; };
+		AFD47EE32BEAB6DD005CCF51 /* AddIyineryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIyineryViewController.swift; sourceTree = "<group>"; };
+		AFD47EE52BEAB994005CCF51 /* TripPlaneTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPlaneTableViewCell.swift; sourceTree = "<group>"; };
 		AFE90ABF2BDB611E000962F0 /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
 		AFF997BE2BDAD33900DCF598 /* EazyTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EazyTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFF997C12BDAD33900DCF598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,9 +99,17 @@
 			isa = PBXGroup;
 			children = (
 				AFF997C12BDAD33900DCF598 /* AppDelegate.swift */,
+				AFCB55462BEB7C3F0061F1F2 /* RoundCheckboxButton.swift */,
+				AFCB554A2BEBB31F0061F1F2 /* CreateAccountViewController.swift */,
+				AFCB55482BEB83FD0061F1F2 /* OnboaringViewController.swift */,
+				AFD47EE52BEAB994005CCF51 /* TripPlaneTableViewCell.swift */,
+				AFD47EE12BEAAEF4005CCF51 /* EnterDetailsCenterViewController.swift */,
+				AFD47EE32BEAB6DD005CCF51 /* AddIyineryViewController.swift */,
 				AF2269F02BE81D5200702130 /* TripDetailViewController.swift */,
 				AFF997C32BDAD33900DCF598 /* SceneDelegate.swift */,
+				AFD47EDD2BEAAE75005CCF51 /* AddTripCenterViewController.swift */,
 				AFF997C52BDAD33900DCF598 /* ViewController.swift */,
+				AFD47EDF2BEAAEAA005CCF51 /* AddTripCenterTableViewCell.swift */,
 				AF2269EA2BE81C7200702130 /* EntryViewController.swift */,
 				AF2269EE2BE81D1F00702130 /* NextViewController.swift */,
 				AF4535012BDEC28D00A4906A /* LaunchViewController.swift */,
@@ -183,16 +207,24 @@
 				AFF997C62BDAD33900DCF598 /* ViewController.swift in Sources */,
 				AFC9EB412BE163680008765E /* CommunityViewController.swift in Sources */,
 				AFC9EB432BE163900008765E /* CommunityTableViewCell.swift in Sources */,
+				AFD47EE42BEAB6DD005CCF51 /* AddIyineryViewController.swift in Sources */,
 				AF4535022BDEC28D00A4906A /* LaunchViewController.swift in Sources */,
 				AF2269EB2BE81C7200702130 /* EntryViewController.swift in Sources */,
 				AF8608062BE22569006DCD14 /* PlanViewController.swift in Sources */,
 				AF4535082BDED20300A4906A /* HomeViewController.swift in Sources */,
+				AFD47EE02BEAAEAA005CCF51 /* AddTripCenterTableViewCell.swift in Sources */,
+				AFCB554B2BEBB31F0061F1F2 /* CreateAccountViewController.swift in Sources */,
+				AFCB55492BEB83FD0061F1F2 /* OnboaringViewController.swift in Sources */,
+				AFD47EE62BEAB994005CCF51 /* TripPlaneTableViewCell.swift in Sources */,
 				AFB6BA5D2BDE1B95000BC434 /* ExploreController.swift in Sources */,
+				AFD47EE22BEAAEF4005CCF51 /* EnterDetailsCenterViewController.swift in Sources */,
 				AF2269ED2BE81CED00702130 /* TripItinerayViewController.swift in Sources */,
 				AFE90AC02BDB611E000962F0 /* DataModels.swift in Sources */,
 				AFD47E9C2BE8918A005CCF51 /* PostYourExperienceViewController.swift in Sources */,
 				AFF997C22BDAD33900DCF598 /* AppDelegate.swift in Sources */,
+				AFCB55472BEB7C3F0061F1F2 /* RoundCheckboxButton.swift in Sources */,
 				AFF997C42BDAD33900DCF598 /* SceneDelegate.swift in Sources */,
+				AFD47EDE2BEAAE75005CCF51 /* AddTripCenterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

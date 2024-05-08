@@ -1,6 +1,48 @@
 import UIKit
 
-class TripDetailViewController: UIViewController {
+struct Itinery{
+    var imageName: String
+    var name:String
+    var descriptionOne:String
+    var descriptionTwo:String
+    var isOn:Bool
+}
+
+var itineries: [Itinery] = []
+
+class TripDetailViewController: UIViewController , UITableViewDataSource{
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        itineries.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = itinerayTableView.dequeueReusableCell(withIdentifier: "tripItinerayCell", for: indexPath) as! TripPlanTableViewCell
+        
+        let itinary = itineries[indexPath.row]
+        cell.typeNameLabel.text = itinary.name
+        cell.typeImageView.image = UIImage(systemName: itinary.imageName)
+        cell.descriptionTwo.text = itinary.descriptionTwo
+        cell.descriptionOne.text = itinary.descriptionOne
+        if(itinary.isOn){
+            cell.typeImageView.backgroundColor = .green
+            cell.switchStatus.isOn = true
+            cell.connectingLine.backgroundColor = .green
+        }
+        else{
+            cell.typeImageView.backgroundColor = .blue
+            cell.switchStatus.isOn = false
+            cell.connectingLine.backgroundColor = .blue
+        }
+        if(indexPath.row == itineries.count - 1){
+            cell.connectingLine.isHidden = true
+        } else {
+            cell.connectingLine.isHidden = false
+        }
+        return cell
+    }
+    
+    
     var task: trip?
     var selectedImage: UIImage?
     var name: String?
@@ -8,48 +50,25 @@ class TripDetailViewController: UIViewController {
     var nameLabel: UILabel! // Declare nameLabel as a class property
     var emailLabel: UILabel! // Declare emailLabel as a class property
     var checkboxSwitch: UISwitch!
-
-    @IBOutlet weak var descriptionLabel: UILabel!
     
+    @IBOutlet weak var itinerayTableView: UITableView!
+    @IBOutlet weak var descriptionLabel: UILabel!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
         if let task = task {
             descriptionLabel.text = task.description
             navigationItem.title = task.title
         }
+        itinerayTableView.dataSource = self
 
-        if let selectedImage = selectedImage {
-            let imageView = UIImageView(image: selectedImage)
-            imageView.contentMode = .scaleAspectFill
-            imageView.frame = CGRect(x: 100, y: 150, width: 100, height: 100)
-            imageView.layer.cornerRadius = imageView.frame.width / 2
-            imageView.clipsToBounds = true
-            view.addSubview(imageView)
-        }
-
-        nameLabel = UILabel(frame: CGRect(x: 200, y: 160, width: 300, height: 40))
-        nameLabel.text = "Name: \(name ?? "")"
-        view.addSubview(nameLabel)
-        
-        emailLabel = UILabel(frame: CGRect(x: 200, y: 180, width: 300, height: 40))
-        emailLabel.text = "Email: \(email ?? "")"
-        view.addSubview(emailLabel)
-        
-        // Checkbox switch
-        checkboxSwitch = UISwitch(frame: CGRect(x: 16, y: 180, width: 50, height: 30))
-        checkboxSwitch.addTarget(self, action: #selector(checkboxValueChanged(_:)), for: .valueChanged)
-        view.addSubview(checkboxSwitch)
     }
     
-    @objc func checkboxValueChanged(_ sender: UISwitch) {
-        if sender.isOn {
-            nameLabel.textColor = .green // Change text color to green when checkbox is selected
-            emailLabel.textColor = .green
-        } else {
-            nameLabel.textColor = .black // Reset text color when checkbox is deselected
-            emailLabel.textColor = .black
-        }
+    override func viewDidAppear(_ animated: Bool) {
+        itinerayTableView.reloadData()
     }
+    @IBAction func didTapPlus(_ sender: Any) {
+        performSegue(withIdentifier: "selectTypeImageSegue", sender: self)
+    }
+    
 }

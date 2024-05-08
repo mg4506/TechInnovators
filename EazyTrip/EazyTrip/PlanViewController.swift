@@ -8,6 +8,7 @@
 import UIKit
 
 struct trip{
+     // Unique identifier
     var title: String
     var description: String
     
@@ -15,7 +16,8 @@ struct trip{
 class PlanViewController: UIViewController  {
     @IBOutlet var tableView: UITableView!
     @IBOutlet var searchBar: UISearchBar!
-
+    @IBOutlet var titleName: UILabel!
+    @IBOutlet var descriptionName: UILabel!
     var task = [trip]()
     var filteredTasks = [trip]()
 
@@ -73,11 +75,18 @@ extension PlanViewController:UITableViewDelegate{
 //        tableView.deselectRow(at: indexPath, animated: true)
 //
 //    }
-    
+
+
+
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let selectedTask = filteredTasks[indexPath.row]
         // Assuming you have a detail view controller named TaskDetailViewController
+       
+        DispatchQueue.main.async { [weak self] in
+                    self?.titleName.text = selectedTask.title
+                    self?.descriptionName.text = selectedTask.description
+                }
         let detailVC = storyboard?.instantiateViewController(identifier: "TripDetailViewController") as! TripDetailViewController
         detailVC.task = selectedTask // Pass the selected task to the detail view controller
         navigationController?.pushViewController(detailVC, animated: true
@@ -106,6 +115,22 @@ extension PlanViewController:UITableViewDataSource{
 
             return cell
     }
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+         if editingStyle == .delete {
+             // Remove the item from the data source
+             _ = filteredTasks.remove(at: indexPath.row)
+             
+             // Update UserDefaults
+             UserDefaults.standard.set(filteredTasks.count, forKey: "count")
+             for (index, task) in filteredTasks.enumerated() {
+                 UserDefaults.standard.set(task.title, forKey: "task_\(index + 1)")
+                 UserDefaults.standard.set(task.description, forKey: "task2_\(index + 1)desc")
+             }
+             
+             // Update the table view
+             tableView.deleteRows(at: [indexPath], with: .fade)
+         }
+     }
 
     
     
