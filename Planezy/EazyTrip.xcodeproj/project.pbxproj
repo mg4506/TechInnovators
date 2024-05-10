@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF2269EB2BE81C7200702130 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2269EA2BE81C7200702130 /* EntryViewController.swift */; };
+		AF2269ED2BE81CED00702130 /* TripItinerayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2269EC2BE81CED00702130 /* TripItinerayViewController.swift */; };
+		AF2269EF2BE81D1F00702130 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2269EE2BE81D1F00702130 /* NextViewController.swift */; };
+		AF2269F12BE81D5200702130 /* TripDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2269F02BE81D5200702130 /* TripDetailViewController.swift */; };
+		AF4535022BDEC28D00A4906A /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4535012BDEC28D00A4906A /* LaunchViewController.swift */; };
+		AF4535042BDECCFF00A4906A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4535032BDECCFF00A4906A /* LoginViewController.swift */; };
+		AF4535082BDED20300A4906A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4535072BDED20300A4906A /* HomeViewController.swift */; };
+		AF8608062BE22569006DCD14 /* PlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8608052BE22569006DCD14 /* PlanViewController.swift */; };
+		AFA2009B2BECC76400977133 /* PlanCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA2009A2BECC76400977133 /* PlanCellTableViewCell.swift */; };
+		AFB6BA5D2BDE1B95000BC434 /* ExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB6BA5C2BDE1B95000BC434 /* ExploreController.swift */; };
+		AFC9EB412BE163680008765E /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC9EB402BE163680008765E /* CommunityViewController.swift */; };
+		AFC9EB432BE163900008765E /* CommunityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC9EB422BE163900008765E /* CommunityTableViewCell.swift */; };
+		AFCB55472BEB7C3F0061F1F2 /* RoundCheckboxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCB55462BEB7C3F0061F1F2 /* RoundCheckboxButton.swift */; };
+		AFCB55492BEB83FD0061F1F2 /* OnboaringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCB55482BEB83FD0061F1F2 /* OnboaringViewController.swift */; };
+		AFCB554B2BEBB31F0061F1F2 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCB554A2BEBB31F0061F1F2 /* CreateAccountViewController.swift */; };
+		AFCFA6912BEE259E002CF431 /* SubjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCFA6902BEE259E002CF431 /* SubjectViewController.swift */; };
+		AFCFA6932BEE25E3002CF431 /* SubjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCFA6922BEE25E3002CF431 /* SubjectCell.swift */; };
+		AFCFA6952BEE2714002CF431 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCFA6942BEE2714002CF431 /* PostViewController.swift */; };
+		AFCFA69F2BEE2FC3002CF431 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCFA69E2BEE2FC3002CF431 /* WidgetKit.framework */; };
+		AFCFA6A12BEE2FC3002CF431 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCFA6A02BEE2FC3002CF431 /* SwiftUI.framework */; };
+		AFCFA6A42BEE2FC3002CF431 /* planezyWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCFA6A32BEE2FC3002CF431 /* planezyWidgetBundle.swift */; };
+		AFCFA6A62BEE2FC3002CF431 /* planezyWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCFA6A52BEE2FC3002CF431 /* planezyWidgetLiveActivity.swift */; };
+		AFCFA6A82BEE2FC3002CF431 /* planezyWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCFA6A72BEE2FC3002CF431 /* planezyWidget.swift */; };
+		AFCFA6AA2BEE2FC3002CF431 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCFA6A92BEE2FC3002CF431 /* AppIntent.swift */; };
+		AFCFA6AC2BEE2FC4002CF431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFCFA6AB2BEE2FC4002CF431 /* Assets.xcassets */; };
+		AFCFA6B02BEE2FC4002CF431 /* planezyWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AFCFA69C2BEE2FC3002CF431 /* planezyWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AFCFA6B52BEE3882002CF431 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCFA6962BEE273B002CF431 /* PostTableViewCell.swift */; };
+		AFCFA6B72BEE3CC2002CF431 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCFA6B62BEE3CC2002CF431 /* PostTableViewCell.swift */; };
+		AFD47E9C2BE8918A005CCF51 /* PostYourExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD47E9B2BE8918A005CCF51 /* PostYourExperienceViewController.swift */; };
+		AFD47EDE2BEAAE75005CCF51 /* AddTripCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD47EDD2BEAAE75005CCF51 /* AddTripCenterViewController.swift */; };
+		AFD47EE02BEAAEAA005CCF51 /* AddTripCenterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD47EDF2BEAAEAA005CCF51 /* AddTripCenterTableViewCell.swift */; };
+		AFD47EE22BEAAEF4005CCF51 /* EnterDetailsCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD47EE12BEAAEF4005CCF51 /* EnterDetailsCenterViewController.swift */; };
+		AFD47EE62BEAB994005CCF51 /* TripPlaneTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD47EE52BEAB994005CCF51 /* TripPlaneTableViewCell.swift */; };
+		AFE90AC02BDB611E000962F0 /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE90ABF2BDB611E000962F0 /* DataModels.swift */; };
+		AFF5764C2BED9D610098F64C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF5764B2BED9D610098F64C /* MapViewController.swift */; };
+		AFF997C22BDAD33900DCF598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF997C12BDAD33900DCF598 /* AppDelegate.swift */; };
+		AFF997C42BDAD33900DCF598 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF997C32BDAD33900DCF598 /* SceneDelegate.swift */; };
+		AFF997C62BDAD33900DCF598 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF997C52BDAD33900DCF598 /* ViewController.swift */; };
+		AFF997C92BDAD33900DCF598 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AFF997C82BDAD33900DCF598 /* Base */; };
+		AFF997CB2BDAD33A00DCF598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF997CA2BDAD33A00DCF598 /* Assets.xcassets */; };
+		AFF997CE2BDAD33A00DCF598 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AFF997CD2BDAD33A00DCF598 /* Base */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFCFA6AE2BEE2FC4002CF431 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFF997B62BDAD33900DCF598 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFCFA69B2BEE2FC3002CF431;
+			remoteInfo = planezyWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AFCFA6B42BEE2FC4002CF431 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AFCFA6B02BEE2FC4002CF431 /* planezyWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AF2269EA2BE81C7200702130 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		AF2269EC2BE81CED00702130 /* TripItinerayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripItinerayViewController.swift; sourceTree = "<group>"; };
+		AF2269EE2BE81D1F00702130 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		AF2269F02BE81D5200702130 /* TripDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailViewController.swift; sourceTree = "<group>"; };
+		AF4535012BDEC28D00A4906A /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		AF4535032BDECCFF00A4906A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AF4535072BDED20300A4906A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AF8608052BE22569006DCD14 /* PlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanViewController.swift; sourceTree = "<group>"; };
+		AFA2009A2BECC76400977133 /* PlanCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanCellTableViewCell.swift; sourceTree = "<group>"; };
+		AFB6BA5C2BDE1B95000BC434 /* ExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreController.swift; sourceTree = "<group>"; };
+		AFC9EB402BE163680008765E /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
+		AFC9EB422BE163900008765E /* CommunityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityTableViewCell.swift; sourceTree = "<group>"; };
+		AFCB55462BEB7C3F0061F1F2 /* RoundCheckboxButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundCheckboxButton.swift; sourceTree = "<group>"; };
+		AFCB55482BEB83FD0061F1F2 /* OnboaringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboaringViewController.swift; sourceTree = "<group>"; };
+		AFCB554A2BEBB31F0061F1F2 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		AFCFA6902BEE259E002CF431 /* SubjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectViewController.swift; sourceTree = "<group>"; };
+		AFCFA6922BEE25E3002CF431 /* SubjectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectCell.swift; sourceTree = "<group>"; };
+		AFCFA6942BEE2714002CF431 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		AFCFA6962BEE273B002CF431 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		AFCFA69C2BEE2FC3002CF431 /* planezyWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = planezyWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFCFA69E2BEE2FC3002CF431 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		AFCFA6A02BEE2FC3002CF431 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		AFCFA6A32BEE2FC3002CF431 /* planezyWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = planezyWidgetBundle.swift; sourceTree = "<group>"; };
+		AFCFA6A52BEE2FC3002CF431 /* planezyWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = planezyWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		AFCFA6A72BEE2FC3002CF431 /* planezyWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = planezyWidget.swift; sourceTree = "<group>"; };
+		AFCFA6A92BEE2FC3002CF431 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		AFCFA6AB2BEE2FC4002CF431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFCFA6AD2BEE2FC4002CF431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFCFA6B62BEE3CC2002CF431 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		AFD47E9B2BE8918A005CCF51 /* PostYourExperienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostYourExperienceViewController.swift; sourceTree = "<group>"; };
+		AFD47EDD2BEAAE75005CCF51 /* AddTripCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripCenterViewController.swift; sourceTree = "<group>"; };
+		AFD47EDF2BEAAEAA005CCF51 /* AddTripCenterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripCenterTableViewCell.swift; sourceTree = "<group>"; };
+		AFD47EE12BEAAEF4005CCF51 /* EnterDetailsCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterDetailsCenterViewController.swift; sourceTree = "<group>"; };
+		AFD47EE52BEAB994005CCF51 /* TripPlaneTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPlaneTableViewCell.swift; sourceTree = "<group>"; };
+		AFE90ABF2BDB611E000962F0 /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
+		AFF5764B2BED9D610098F64C /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		AFF997BE2BDAD33900DCF598 /* EazyTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EazyTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF997C12BDAD33900DCF598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFF997C32BDAD33900DCF598 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AFF997C52BDAD33900DCF598 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFF997C82BDAD33900DCF598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFF997CA2BDAD33A00DCF598 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFF997CD2BDAD33A00DCF598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFF997CF2BDAD33B00DCF598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFCFA6992BEE2FC3002CF431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCFA6A12BEE2FC3002CF431 /* SwiftUI.framework in Frameworks */,
+				AFCFA69F2BEE2FC3002CF431 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFF997BB2BDAD33900DCF598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF33B51E2BEDC65600076D42 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				AFCB554A2BEBB31F0061F1F2 /* CreateAccountViewController.swift */,
+				AF4535032BDECCFF00A4906A /* LoginViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		AF33B51F2BEDC67700076D42 /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				AFC9EB402BE163680008765E /* CommunityViewController.swift */,
+				AFC9EB422BE163900008765E /* CommunityTableViewCell.swift */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		AF33B5202BEDC6B200076D42 /* PlanTrip */ = {
+			isa = PBXGroup;
+			children = (
+				AFCB55462BEB7C3F0061F1F2 /* RoundCheckboxButton.swift */,
+				AFD47EE12BEAAEF4005CCF51 /* EnterDetailsCenterViewController.swift */,
+				AF8608052BE22569006DCD14 /* PlanViewController.swift */,
+				AF2269EE2BE81D1F00702130 /* NextViewController.swift */,
+				AFD47EE52BEAB994005CCF51 /* TripPlaneTableViewCell.swift */,
+				AF2269F02BE81D5200702130 /* TripDetailViewController.swift */,
+				AFD47EDD2BEAAE75005CCF51 /* AddTripCenterViewController.swift */,
+				AFD47EDF2BEAAEAA005CCF51 /* AddTripCenterTableViewCell.swift */,
+				AF2269EA2BE81C7200702130 /* EntryViewController.swift */,
+				AF2269EC2BE81CED00702130 /* TripItinerayViewController.swift */,
+				AFA2009A2BECC76400977133 /* PlanCellTableViewCell.swift */,
+				AFD47E9B2BE8918A005CCF51 /* PostYourExperienceViewController.swift */,
+			);
+			path = PlanTrip;
+			sourceTree = "<group>";
+		};
+		AF33B5212BEDC6F300076D42 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				AFB6BA5C2BDE1B95000BC434 /* ExploreController.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		AF33B5222BEDC6FD00076D42 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AF4535072BDED20300A4906A /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AF33B5232BEDC71E00076D42 /* Launching */ = {
+			isa = PBXGroup;
+			children = (
+				AFCB55482BEB83FD0061F1F2 /* OnboaringViewController.swift */,
+				AF4535012BDEC28D00A4906A /* LaunchViewController.swift */,
+			);
+			path = Launching;
+			sourceTree = "<group>";
+		};
+		AF33B5242BEDC76500076D42 /* Mapkit */ = {
+			isa = PBXGroup;
+			children = (
+				AFF5764B2BED9D610098F64C /* MapViewController.swift */,
+			);
+			path = Mapkit;
+			sourceTree = "<group>";
+		};
+		AFCFA69D2BEE2FC3002CF431 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFCFA69E2BEE2FC3002CF431 /* WidgetKit.framework */,
+				AFCFA6A02BEE2FC3002CF431 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFCFA6A22BEE2FC3002CF431 /* planezyWidget */ = {
+			isa = PBXGroup;
+			children = (
+				AFCFA6962BEE273B002CF431 /* PostTableViewCell.swift */,
+				AFCFA6A32BEE2FC3002CF431 /* planezyWidgetBundle.swift */,
+				AFCFA6A52BEE2FC3002CF431 /* planezyWidgetLiveActivity.swift */,
+				AFCFA6A72BEE2FC3002CF431 /* planezyWidget.swift */,
+				AFCFA6A92BEE2FC3002CF431 /* AppIntent.swift */,
+				AFCFA6AB2BEE2FC4002CF431 /* Assets.xcassets */,
+				AFCFA6AD2BEE2FC4002CF431 /* Info.plist */,
+			);
+			path = planezyWidget;
+			sourceTree = "<group>";
+		};
+		AFF997B52BDAD33900DCF598 = {
+			isa = PBXGroup;
+			children = (
+				AFF997C02BDAD33900DCF598 /* EazyTrip */,
+				AFCFA6A22BEE2FC3002CF431 /* planezyWidget */,
+				AFCFA69D2BEE2FC3002CF431 /* Frameworks */,
+				AFF997BF2BDAD33900DCF598 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFF997BF2BDAD33900DCF598 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFF997BE2BDAD33900DCF598 /* EazyTrip.app */,
+				AFCFA69C2BEE2FC3002CF431 /* planezyWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFF997C02BDAD33900DCF598 /* EazyTrip */ = {
+			isa = PBXGroup;
+			children = (
+				AFCFA6942BEE2714002CF431 /* PostViewController.swift */,
+				AFCFA6B62BEE3CC2002CF431 /* PostTableViewCell.swift */,
+				AFCFA6922BEE25E3002CF431 /* SubjectCell.swift */,
+				AFF997C12BDAD33900DCF598 /* AppDelegate.swift */,
+				AFF997C32BDAD33900DCF598 /* SceneDelegate.swift */,
+				AFF997C52BDAD33900DCF598 /* ViewController.swift */,
+				AFE90ABF2BDB611E000962F0 /* DataModels.swift */,
+				AF33B5242BEDC76500076D42 /* Mapkit */,
+				AF33B51E2BEDC65600076D42 /* Authentication */,
+				AF33B5232BEDC71E00076D42 /* Launching */,
+				AF33B5202BEDC6B200076D42 /* PlanTrip */,
+				AF33B5222BEDC6FD00076D42 /* Home */,
+				AF33B51F2BEDC67700076D42 /* Community */,
+				AF33B5212BEDC6F300076D42 /* Explore */,
+				AFF997C72BDAD33900DCF598 /* Main.storyboard */,
+				AFF997CA2BDAD33A00DCF598 /* Assets.xcassets */,
+				AFF997CC2BDAD33A00DCF598 /* LaunchScreen.storyboard */,
+				AFF997CF2BDAD33B00DCF598 /* Info.plist */,
+				AFCFA6902BEE259E002CF431 /* SubjectViewController.swift */,
+			);
+			path = EazyTrip;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFCFA69B2BEE2FC3002CF431 /* planezyWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFCFA6B12BEE2FC4002CF431 /* Build configuration list for PBXNativeTarget "planezyWidgetExtension" */;
+			buildPhases = (
+				AFCFA6982BEE2FC3002CF431 /* Sources */,
+				AFCFA6992BEE2FC3002CF431 /* Frameworks */,
+				AFCFA69A2BEE2FC3002CF431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = planezyWidgetExtension;
+			productName = planezyWidgetExtension;
+			productReference = AFCFA69C2BEE2FC3002CF431 /* planezyWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		AFF997BD2BDAD33900DCF598 /* EazyTrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFF997D22BDAD33B00DCF598 /* Build configuration list for PBXNativeTarget "EazyTrip" */;
+			buildPhases = (
+				AFF997BA2BDAD33900DCF598 /* Sources */,
+				AFF997BB2BDAD33900DCF598 /* Frameworks */,
+				AFF997BC2BDAD33900DCF598 /* Resources */,
+				AFCFA6B42BEE2FC4002CF431 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFCFA6AF2BEE2FC4002CF431 /* PBXTargetDependency */,
+			);
+			name = EazyTrip;
+			productName = EazyTrip;
+			productReference = AFF997BE2BDAD33900DCF598 /* EazyTrip.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFF997B62BDAD33900DCF598 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					AFCFA69B2BEE2FC3002CF431 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					AFF997BD2BDAD33900DCF598 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = AFF997B92BDAD33900DCF598 /* Build configuration list for PBXProject "EazyTrip" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFF997B52BDAD33900DCF598;
+			productRefGroup = AFF997BF2BDAD33900DCF598 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFF997BD2BDAD33900DCF598 /* EazyTrip */,
+				AFCFA69B2BEE2FC3002CF431 /* planezyWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFCFA69A2BEE2FC3002CF431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCFA6AC2BEE2FC4002CF431 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFF997BC2BDAD33900DCF598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF997CB2BDAD33A00DCF598 /* Assets.xcassets in Resources */,
+				AFF997CE2BDAD33A00DCF598 /* Base in Resources */,
+				AFF997C92BDAD33900DCF598 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFCFA6982BEE2FC3002CF431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCFA6A82BEE2FC3002CF431 /* planezyWidget.swift in Sources */,
+				AFCFA6AA2BEE2FC3002CF431 /* AppIntent.swift in Sources */,
+				AFCFA6B52BEE3882002CF431 /* PostTableViewCell.swift in Sources */,
+				AFCFA6A62BEE2FC3002CF431 /* planezyWidgetLiveActivity.swift in Sources */,
+				AFCFA6A42BEE2FC3002CF431 /* planezyWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFF997BA2BDAD33900DCF598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF2269F12BE81D5200702130 /* TripDetailViewController.swift in Sources */,
+				AF4535042BDECCFF00A4906A /* LoginViewController.swift in Sources */,
+				AF2269EF2BE81D1F00702130 /* NextViewController.swift in Sources */,
+				AFF997C62BDAD33900DCF598 /* ViewController.swift in Sources */,
+				AFC9EB412BE163680008765E /* CommunityViewController.swift in Sources */,
+				AFCFA6B72BEE3CC2002CF431 /* PostTableViewCell.swift in Sources */,
+				AFC9EB432BE163900008765E /* CommunityTableViewCell.swift in Sources */,
+				AF4535022BDEC28D00A4906A /* LaunchViewController.swift in Sources */,
+				AF2269EB2BE81C7200702130 /* EntryViewController.swift in Sources */,
+				AFA2009B2BECC76400977133 /* PlanCellTableViewCell.swift in Sources */,
+				AF8608062BE22569006DCD14 /* PlanViewController.swift in Sources */,
+				AF4535082BDED20300A4906A /* HomeViewController.swift in Sources */,
+				AFD47EE02BEAAEAA005CCF51 /* AddTripCenterTableViewCell.swift in Sources */,
+				AFCB554B2BEBB31F0061F1F2 /* CreateAccountViewController.swift in Sources */,
+				AFCB55492BEB83FD0061F1F2 /* OnboaringViewController.swift in Sources */,
+				AFD47EE62BEAB994005CCF51 /* TripPlaneTableViewCell.swift in Sources */,
+				AFB6BA5D2BDE1B95000BC434 /* ExploreController.swift in Sources */,
+				AFD47EE22BEAAEF4005CCF51 /* EnterDetailsCenterViewController.swift in Sources */,
+				AF2269ED2BE81CED00702130 /* TripItinerayViewController.swift in Sources */,
+				AFCFA6912BEE259E002CF431 /* SubjectViewController.swift in Sources */,
+				AFF5764C2BED9D610098F64C /* MapViewController.swift in Sources */,
+				AFE90AC02BDB611E000962F0 /* DataModels.swift in Sources */,
+				AFD47E9C2BE8918A005CCF51 /* PostYourExperienceViewController.swift in Sources */,
+				AFF997C22BDAD33900DCF598 /* AppDelegate.swift in Sources */,
+				AFCFA6932BEE25E3002CF431 /* SubjectCell.swift in Sources */,
+				AFCB55472BEB7C3F0061F1F2 /* RoundCheckboxButton.swift in Sources */,
+				AFF997C42BDAD33900DCF598 /* SceneDelegate.swift in Sources */,
+				AFD47EDE2BEAAE75005CCF51 /* AddTripCenterViewController.swift in Sources */,
+				AFCFA6952BEE2714002CF431 /* PostViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFCFA6AF2BEE2FC4002CF431 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFCFA69B2BEE2FC3002CF431 /* planezyWidgetExtension */;
+			targetProxy = AFCFA6AE2BEE2FC4002CF431 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFF997C72BDAD33900DCF598 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFF997C82BDAD33900DCF598 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFF997CC2BDAD33A00DCF598 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFF997CD2BDAD33A00DCF598 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFCFA6B22BEE2FC4002CF431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Z9PSH8CVD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = planezyWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = planezyWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MG.EazyTrip.planezyWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFCFA6B32BEE2FC4002CF431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Z9PSH8CVD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = planezyWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = planezyWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MG.EazyTrip.planezyWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFF997D02BDAD33B00DCF598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFF997D12BDAD33B00DCF598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFF997D32BDAD33B00DCF598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Z9PSH8CVD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EazyTrip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PlanEzy;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MG.EazyTrip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFF997D42BDAD33B00DCF598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6Z9PSH8CVD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EazyTrip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PlanEzy;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MG.EazyTrip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFCFA6B12BEE2FC4002CF431 /* Build configuration list for PBXNativeTarget "planezyWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCFA6B22BEE2FC4002CF431 /* Debug */,
+				AFCFA6B32BEE2FC4002CF431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFF997B92BDAD33900DCF598 /* Build configuration list for PBXProject "EazyTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF997D02BDAD33B00DCF598 /* Debug */,
+				AFF997D12BDAD33B00DCF598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFF997D22BDAD33B00DCF598 /* Build configuration list for PBXNativeTarget "EazyTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF997D32BDAD33B00DCF598 /* Debug */,
+				AFF997D42BDAD33B00DCF598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFF997B62BDAD33900DCF598 /* Project object */;
+}
