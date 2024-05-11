@@ -12,13 +12,20 @@ struct trip{
     var title: String
     var description: String
     
+    
 }
 
 class PlanViewController: UIViewController  {
     @IBOutlet var tableView: UITableView!
     @IBOutlet var searchBar: UISearchBar!
-
-  
+    @IBOutlet weak var segment: UISegmentedControl!
+ 
+    @IBAction func segmentActionControl(_ sender: UISegmentedControl) {
+        
+        
+        
+    }
+    
     
   
     var task = [trip]()

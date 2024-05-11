@@ -35,6 +35,7 @@
 		AFCFA6B02BEE2FC4002CF431 /* planezyWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AFCFA69C2BEE2FC3002CF431 /* planezyWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AFCFA6B52BEE3882002CF431 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCFA6962BEE273B002CF431 /* PostTableViewCell.swift */; };
 		AFCFA6B72BEE3CC2002CF431 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCFA6B62BEE3CC2002CF431 /* PostTableViewCell.swift */; };
+		AFCFA6F72BEE9AE5002CF431 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCFA6F62BEE9AE5002CF431 /* Posts.swift */; };
 		AFD47E9C2BE8918A005CCF51 /* PostYourExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD47E9B2BE8918A005CCF51 /* PostYourExperienceViewController.swift */; };
 		AFD47EDE2BEAAE75005CCF51 /* AddTripCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD47EDD2BEAAE75005CCF51 /* AddTripCenterViewController.swift */; };
 		AFD47EE02BEAAEAA005CCF51 /* AddTripCenterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD47EDF2BEAAEAA005CCF51 /* AddTripCenterTableViewCell.swift */; };
@@ -104,6 +105,7 @@
 		AFCFA6AB2BEE2FC4002CF431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFCFA6AD2BEE2FC4002CF431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFCFA6B62BEE3CC2002CF431 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		AFCFA6F62BEE9AE5002CF431 /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
 		AFD47E9B2BE8918A005CCF51 /* PostYourExperienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostYourExperienceViewController.swift; sourceTree = "<group>"; };
 		AFD47EDD2BEAAE75005CCF51 /* AddTripCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripCenterViewController.swift; sourceTree = "<group>"; };
 		AFD47EDF2BEAAEAA005CCF51 /* AddTripCenterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripCenterTableViewCell.swift; sourceTree = "<group>"; };
@@ -256,6 +258,7 @@
 		AFF997C02BDAD33900DCF598 /* EazyTrip */ = {
 			isa = PBXGroup;
 			children = (
+				AFCFA6F62BEE9AE5002CF431 /* Posts.swift */,
 				AFCFA6942BEE2714002CF431 /* PostViewController.swift */,
 				AFCFA6B62BEE3CC2002CF431 /* PostTableViewCell.swift */,
 				AFCFA6922BEE25E3002CF431 /* SubjectCell.swift */,
@@ -418,6 +421,7 @@
 				AFD47E9C2BE8918A005CCF51 /* PostYourExperienceViewController.swift in Sources */,
 				AFF997C22BDAD33900DCF598 /* AppDelegate.swift in Sources */,
 				AFCFA6932BEE25E3002CF431 /* SubjectCell.swift in Sources */,
+				AFCFA6F72BEE9AE5002CF431 /* Posts.swift in Sources */,
 				AFCB55472BEB7C3F0061F1F2 /* RoundCheckboxButton.swift in Sources */,
 				AFF997C42BDAD33900DCF598 /* SceneDelegate.swift in Sources */,
 				AFD47EDE2BEAAE75005CCF51 /* AddTripCenterViewController.swift in Sources */,

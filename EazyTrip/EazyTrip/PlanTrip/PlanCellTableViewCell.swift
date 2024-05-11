@@ -17,7 +17,7 @@ class PlanCellTableViewCell: UITableViewCell {
     
     @IBOutlet var toggleButton: UIButton!
     @IBOutlet var scrollview: UIScrollView!
-    var isScrollViewVisible = true
+    var isScrollViewVisible = false
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -25,7 +25,7 @@ class PlanCellTableViewCell: UITableViewCell {
         recommendImgTwo.layer.cornerRadius = 15
 
         planImageView.layer.cornerRadius = 15
-        scrollview.isHidden = false
+        scrollview.isHidden = true
 
         // Initialization code
     }

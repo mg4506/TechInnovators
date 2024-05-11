@@ -15,6 +15,8 @@ class AddTripCenterTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        typeImageView.frame.size.width += 20 // Adjust width as needed
+            typeImageView.frame.size.height += 20
         
     }
 
