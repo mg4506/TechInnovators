@@ -1,2 +1,2 @@
 # TechInnovators
-Created by TripEase
+Created by PlanEzy
